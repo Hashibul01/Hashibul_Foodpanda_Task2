@@ -1,4 +1,4 @@
-name: 'foodpanda-test'
+name: 'Hashibul Hussain Test'
 version: '1.0.0'
 config-version: 2
 
@@ -10,3 +10,6 @@ models:
     +persist_docs: # for the table and column descriptions to show on DB
         relation: true
         columns: true
+    Hashibul Hussain Test:
+        example:
+            Materialized: view
