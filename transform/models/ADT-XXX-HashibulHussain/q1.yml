@@ -1,0 +1,18 @@
+models:
+  - name: q1
+    description: >
+      SELECT 
+        country_name,
+        ROUND(SUM(gmv_local), 2) AS total_gmv
+      FROM 
+        Orders.Orders
+      GROUP BY 
+        country_name;
+
+    meta:
+      owner: hashibulhossain03@gmail.com
+    columns:
+      - country_name
+        description: Name of country.
+      - total_gmv
+        description: GMV calculated for each country.
